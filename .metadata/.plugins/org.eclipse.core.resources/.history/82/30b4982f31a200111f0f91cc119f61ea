@@ -1,0 +1,31 @@
+package com.javaintro;
+
+public class Student {
+
+	
+	    //Static variable
+	    static String CollegeName = " CMR ENGG COLLEGE";
+	
+		//instance variable
+	    int studentId;
+		String studentNAME;
+	    float studentMARKS;
+		
+	    public static void main(String[] args) {
+	        System.out.println(" Main method: ");
+		    System.out.println(" Welcome to College: ");
+		    
+		    System.out.println(" ************** Object01 **************** ");
+		    
+		    	Student ashfaq = new Student();
+		    	
+		    	ashfaq.studentId = 01;
+		    	ashfaq.studentNAME = " Ashfaq Hussain ";
+		    	ashfaq.studentMARKS = 25;
+		    	
+		    	System.out.println(" Main Method Ended: ");
+		
+		
+	}
+
+}

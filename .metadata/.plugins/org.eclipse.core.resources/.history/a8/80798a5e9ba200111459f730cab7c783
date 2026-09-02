@@ -1,0 +1,12 @@
+package com.javaintro;
+
+public class Test {
+	public static void main(String[] args) {
+		System.out.println("Welcome");
+	         	
+	}
+void hello() {
+	System.out.println("Hello");
+	void.display("hello");
+}
+}

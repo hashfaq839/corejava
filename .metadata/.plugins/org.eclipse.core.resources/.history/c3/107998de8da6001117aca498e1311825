@@ -1,0 +1,28 @@
+package com.javaintro;
+
+public class BankAccount {
+	
+	static long accountnogenerator;
+	
+	long accno;
+	String accountholdername;
+	double balance;
+	
+	
+	public static void main(String[] args) {
+       System.out.println(" Main Method Started: ");
+       
+       System.out.println("**************************");
+       System.out.println(" ************** OBJECT01 ****************"); 
+       BankAccount b1 = new BankAccount();
+       b1.accountholdername = " ASHFAQ ";
+       b1.balance = 50000;
+       
+       System.out.println("**************************");
+       System.out.println(" ************** OBJECT02 ****************"); 
+       BankAccount b2 = new BankAccount();
+       b2.accountholdername = " ADNAN ";
+       b2.balance = 60000;
+	}
+
+}

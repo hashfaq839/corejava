@@ -1,0 +1,18 @@
+package com.javaintro;
+
+public class Test2 {
+	
+	int Count =0;
+	
+	void count() {
+		System.out.println("Number of objects ceated: " +Count);
+	}
+
+	public static void main(String[] args) {
+
+		Test2 t2 = new Test2();
+		t2.Count();
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.javaintro;
+
+public class Test1 {
+
+	
+	void hello() {
+		System.out.println("Hello");
+	}
+	
+	void ashu() {
+		System.out.println("Ashu");
+	}
+	public static void main(String[] args) {
+
+		System.out.println(" Main Method started: ");
+		System.out.println(" Welcome ");
+		
+	}
+
+}

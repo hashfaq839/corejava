@@ -1,0 +1,99 @@
+package com.javaintro;
+
+public class Institute {
+
+	
+	//static variable
+	static String frontend_trainer = " SRIKANATH ";
+    static String backend_trainer = " VISHWANATH ";
+    
+    //instance variable
+    int EmployeeID;
+    String EmployeeNAME;
+    String EmployeeDESGN;
+    
+	public static void main(String[] args) {
+		
+		System.out.println(" MAIN METHOD STARTED: ");
+		System.out.println(" ********* OBJECT01 *********");
+		Institute std = new Institute();
+		
+		std.EmployeeID = 01;
+		std.EmployeeNAME = " ASHFAQ ";
+		std.EmployeeDESGN = " Software tester ";
+		
+		System.out.println(" Front End  Trainer: " +frontend_trainer);
+		System.err.println(" Back End Trainer : " +backend_trainer);
+		System.out.println(" EmployeeID: " +std.EmployeeID);
+		System.out.println(" EmployeeNAME: " +std.EmployeeNAME);
+		System.out.println(" EmployeeDESGn: " +std.EmployeeDESGN);
+		
+		System.out.println(" ************************************ ");
+		
+		System.out.println(" ********* OBJECT02 *********");
+		Institute std2 = new Institute();
+		
+		std2.EmployeeID = 02;
+		std2.EmployeeNAME = " ARSHIYA ";
+		std2.EmployeeDESGN = " Front end Developer ";
+		
+		System.out.println(" Front End  Trainer: " +frontend_trainer);
+		System.err.println(" Back End Trainer : " +backend_trainer);
+		System.out.println(" EmployeeID: " +std2.EmployeeID);
+		System.out.println(" EmployeeNAME: " +std2.EmployeeNAME);
+		System.out.println(" EmployeeDESGn: " +std2.EmployeeDESGN);
+		
+		System.out.println(" ************************************ ");
+		
+		System.out.println(" ********* OBJECT03 *********");
+		Institute std3 = new Institute();
+		
+		std3.EmployeeID = 03;
+		std3.EmployeeNAME = " ARSHAQ ";
+		std3.EmployeeDESGN = " Software Developer ";
+		
+		System.out.println(" Front End  Trainer: " +frontend_trainer);
+		System.err.println(" Back End Trainer : " +backend_trainer);
+		System.out.println(" EmployeeID: " +std3.EmployeeID);
+		System.out.println(" EmployeeNAME: " +std3.EmployeeNAME);
+		System.out.println(" EmployeeDESGn: " +std3.EmployeeDESGN);
+		
+		System.out.println(" ************************************ ");
+		
+		System.out.println(" ********* OBJECT04 *********");
+		Institute std4 = new Institute();
+		
+		std4.EmployeeID = 04;
+		std4.EmployeeNAME = " ASIF ";
+		std4.EmployeeDESGN = " DATABASE ANALYST ";
+		
+		System.out.println(" Front End  Trainer: " +frontend_trainer);
+		System.err.println(" Back End Trainer : " +backend_trainer);
+		System.out.println(" EmployeeID: " +std4.EmployeeID);
+		System.out.println(" EmployeeNAME: " +std4.EmployeeNAME);
+		System.out.println(" EmployeeDESGn: " +std4.EmployeeDESGN);
+		
+		System.out.println(" ************************************ ");
+		
+		System.out.println(" ********* OBJECT05 *********");
+		Institute std5 = new Institute();
+		
+		std5.EmployeeID = 05;
+		std5.EmployeeNAME = " ADIL ";
+		std5.EmployeeDESGN = " Back End Developer ";
+		
+		System.out.println(" Front End  Trainer: " +frontend_trainer);
+		System.err.println(" Back End Trainer : " +backend_trainer);
+		System.out.println(" EmployeeID: " +std5.EmployeeID);
+		System.out.println(" EmployeeNAME: " +std5.EmployeeNAME);
+		System.out.println(" EmployeeDESGn: " +std5.EmployeeDESGN);
+		
+		System.out.println(" ************************************ ");
+		
+		System.out.println(" MAIN METHOD ENDED: ");
+		
+		
+          
+	}
+
+}
