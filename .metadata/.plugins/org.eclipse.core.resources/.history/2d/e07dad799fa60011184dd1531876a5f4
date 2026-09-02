@@ -1,0 +1,23 @@
+package com.javaintro;
+
+public class Addition {
+
+	int a,b,sum;
+    
+	void add()	{
+		sum = a + b;
+      System.out.println(sum);
+    }
+	
+	public static void main(String[] args) {
+
+        Addition a1 = new Addition();
+        a1.a = 5;
+        a1.b = 12;
+        a1.sum = a1.a+ a1.b;
+        System.out.println(" Sum of " +a1.a+ " and "+a1.b+" is:" +a1.sum);
+        
+        
+	}
+
+}
