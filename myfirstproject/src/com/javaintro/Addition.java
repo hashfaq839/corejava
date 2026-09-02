@@ -6,7 +6,6 @@ public class Addition {
     
 	void add()	{
 		sum = a + b;
-      System.out.println(sum);
     }
 	
 	public static void main(String[] args) {
@@ -14,8 +13,9 @@ public class Addition {
         Addition a1 = new Addition();
         a1.a = 5;
         a1.b = 12;
-        a1.sum = a1.a+ a1.b;
-        System.out.println(" Sum of " +a1.a+ " and "+a1.b+" is: " +a1.sum);
+        a1.add();
+        
+        System.out.println(" Sum of "+a1.a+" and "+a1.b+" is: " +a1.sum);
         
         
 	}
